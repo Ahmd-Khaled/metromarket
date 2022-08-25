@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ahmd-Khaled/metromarket.git/static/css/main.a75c6da9.css",
+    "main.js": "/Ahmd-Khaled/metromarket.git/static/js/main.ac33c3b5.js",
+    "static/media/store-locator-.jpg": "/Ahmd-Khaled/metromarket.git/static/media/store-locator-.2ea5bf0a4387f02595ad.jpg",
+    "static/media/left-arrow.svg": "/Ahmd-Khaled/metromarket.git/static/media/left-arrow.53878c51904c34f1288e46174c107c57.svg",
+    "static/media/right-arrow.svg": "/Ahmd-Khaled/metromarket.git/static/media/right-arrow.8b8fb639d7ed68731e5b073c0700d3bf.svg",
+    "index.html": "/Ahmd-Khaled/metromarket.git/index.html",
+    "main.a75c6da9.css.map": "/Ahmd-Khaled/metromarket.git/static/css/main.a75c6da9.css.map",
+    "main.ac33c3b5.js.map": "/Ahmd-Khaled/metromarket.git/static/js/main.ac33c3b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a75c6da9.css",
+    "static/js/main.ac33c3b5.js"
+  ]
+}
