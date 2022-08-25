@@ -1,0 +1,104 @@
+.locator {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url(../../../public/assets/imgs/store-locator-.jpg);
+    background-repeat: no-repeat;
+    color: var(--white);
+    background-size: contain;
+    background-color: #0C1E4F;
+    text-align: center;
+}
+
+.locatorTtl {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -1.26px;
+}
+
+.locatordesc {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    letter-spacing: -0.75px;
+}
+
+.locatorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.locatorFormSelect > select {
+    width: 240px;
+    padding: 0 10px;
+    color: var(--blue-dark);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.locatorFormSelect > select,
+.locatorFormBtn {
+    height: 35px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.locatorFormSelect > select > option {
+    height: 20px;
+}
+
+.locatorFormBtn {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--red-light2);
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.locatorFormBtn:hover {
+    opacity: 0.7;
+}
+
+.locatorFormBtn > span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    .locatorForm {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .locatorTtl {
+        font-size: 36px;
+    }
+    
+    .locatordesc {
+        font-size: 22px;
+    }
+
+    .locatorFormSelect > select {
+        width: 200px;
+    }
+
+    .locatorFormBtn {
+        width: 100px;
+    }
+}

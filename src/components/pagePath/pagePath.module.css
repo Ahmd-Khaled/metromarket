@@ -1,0 +1,28 @@
+.categoryPath {
+    font-weight: 700;
+    color: var(--blue-dark);
+}
+
+.categoryPathList {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.categoryPathListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoryPathListItem:not(:first-of-type)::before {
+    content: "\203A";
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--blue-dark);
+}
+
+.categoryPathListItemLink {
+
+}

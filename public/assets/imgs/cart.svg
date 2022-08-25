@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="18.338" height="16.667" viewBox="0 0 18.338 16.667">
+    <defs>
+        <style>
+            .cls-1{fill:#002575}
+        </style>
+    </defs>
+    <g id="Vrstva_165" data-name="Vrstva 165">
+        <path id="Path_197" d="M18.325 5.333h-12.5l-.658-2.575A1.008 1.008 0 0 0 4.208 2H1.833a.833.833 0 0 0 0 1.667h1.859l.641 2.683L6 14.5a.992.992 0 0 0 .975.833h10.55a.992.992 0 0 0 .975-.9l.833-8a1 1 0 0 0-1.008-1.1zm-1.4 8.333h-9.4L6.192 7h11.4z" class="cls-1" data-name="Path 197" transform="translate(-1 -2)"/>
+        <circle id="Ellipse_15" cx=".833" cy=".833" r=".833" class="cls-1" data-name="Ellipse 15" transform="translate(7.502 15)"/>
+        <ellipse id="Ellipse_16" cx="1.667" cy=".833" class="cls-1" data-name="Ellipse 16" rx="1.667" ry=".833" transform="translate(12.502 15)"/>
+    </g>
+</svg>

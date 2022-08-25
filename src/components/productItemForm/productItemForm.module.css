@@ -1,0 +1,103 @@
+
+.productForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+/* ---------------------- */
+.productFormPageCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormPage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productFormPagePrices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--blue-dark);
+}
+
+.productFormPageName {
+
+}
+
+.productFormPagePriceAft,
+.productFormPagePriceBef {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.productFormPagePriceBef {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+/* ---------------------- */
+
+.productFormSelectCont {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    border: 1px solid rgba(222, 222, 222, 0.9);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.productFormSelect {
+    padding: 10px 10px 10px 0;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+    color: var(--blue-dark);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productFormSelectOpt {
+    color: var(--blue-dark);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.productAddBtn {
+    display: flex;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+    padding: 0 20px;
+    min-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

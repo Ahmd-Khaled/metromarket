@@ -1,0 +1,16 @@
+.dropDown {
+    width: 80vw;
+    height: 80vh;
+    background-color: var(--white);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+    z-index: 999;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    overflow: hidden;
+}
+
+.dropDownWrapper {
+    padding: 30px 0px;
+}

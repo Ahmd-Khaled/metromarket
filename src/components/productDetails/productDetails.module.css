@@ -1,0 +1,90 @@
+.pDetails {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.pDetailsImage {
+    flex: 1;
+    position: relative;
+    border: 1px solid #ececec;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.pDetailsImage > img {
+    width: 50%;
+}
+
+.productOffer {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    width: 45px;
+    height: 70px;
+    background-color: #DA2B2A;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pDetailsInfo {
+    flex: 1;
+}
+
+.pDetailsDesc {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: rgba(90, 90, 90, 0.87);
+    padding: 10px;
+}
+
+.pDetailsDescParg {
+
+}
+
+.pDetailsDescList {
+    margin-top: 16px;
+    line-height: 1.8;
+}
+
+.pDetailsDescListItem {
+    position: relative;
+    padding-left: 14px;
+}
+
+.pDetailsDescListItem::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background-color: rgba(90, 90, 90, 0.87);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

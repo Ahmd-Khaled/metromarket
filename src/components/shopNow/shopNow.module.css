@@ -1,0 +1,94 @@
+.shopNow {
+    /* padding-top: 40px; */
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.shopNowContainer {
+    position: relative;
+    overflow: hidden;
+    /* transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+    -moz-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    -o-transform: translateY(-60px); */
+}
+
+.shopNowImg {
+    width: 100%;
+    transform: translateY(60px);
+    -webkit-transform: translateY(60px);
+    -moz-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    -o-transform: translateY(60px);
+}
+
+.shopNowBtn {
+    position: absolute;
+    bottom: 35%;
+    right: calc(25% - 85px);
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 1px solid var(--blue-dark);
+    color: var(--blue-dark);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.shopNowBtn:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width: 992px){
+    .shopNowBtn {
+        bottom: 25%;
+        right: calc(25% - 100px);
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .shopNowBtn {
+        bottom: 45%;
+        right: calc(25% - 80px);
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .shopNowImg {
+        margin-top: 40px;
+        width: 100%;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+}
+
+@media screen and (max-width: 576px){
+    .shopNowBtn {
+        bottom: 15%;
+        right: calc(25% - 40px);
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,61 @@
+
+.dropDownList {
+    width: 33%;
+    overflow-y: scroll;
+}
+
+.dropDownListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px 8px 20px;
+    height: 45px;
+    border-bottom: 1px solid #f1f1f1;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.dropDownListItemLink {
+    color: #242729;
+    cursor: pointer;
+}
+
+.dropDownListItemBtn {
+    background-color: var(--white);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropDownListItemBtn > span {
+    display: block;
+    background-color: #242729;
+    display: block;
+    width: 10px;
+    height: 2px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.vertical {
+    transform: rotate(90deg) translateX(2px);
+    -webkit-transform: rotate(90deg) translateX(2px);
+    -moz-transform: rotate(90deg) translateX(2px);
+    -ms-transform: rotate(90deg) translateX(2px);
+    -o-transform: rotate(90deg) translateX(2px);
+}
+
+.rotatePlus {
+    transform: rotate(180deg) translate(0px, -2px);
+    -webkit-transform: rotate(180deg) translate(0px, -2px);
+    -moz-transform: rotate(180deg) translate(0px, -2px);
+    -ms-transform: rotate(180deg) translate(0px, -2px);
+    -o-transform: rotate(180deg) translate(0px, -2px);
+}

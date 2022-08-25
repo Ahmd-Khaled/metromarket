@@ -1,0 +1,36 @@
+
+.containerDots {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 100;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f1f1f1;
+    border: 1px solid var(--red-light3);
+    margin: 0 5px;
+    background: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.dotActive {
+    background: rgb(32, 32, 32);
+    background-color: var(--red-light3);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

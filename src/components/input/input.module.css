@@ -1,0 +1,78 @@
+.loginInput {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.loginInput > input {
+    min-height: 55px;
+    border: 1.5px solid #5f92fe;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    text-indent: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: block;
+    width: 100%;
+    background: transparent;
+}
+
+
+.loginInput > input::placeholder {
+    color: #958E89;
+    font-size: 16px;
+    font-weight: 600;
+    color: transparent;
+}
+
+.loginInput > label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5f92fe;
+    pointer-events: none;
+    z-index: 5;
+
+    position: absolute;
+    left: 16px;
+    top: 40%;
+    
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.loginInput > label > sup {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.loginInput > input:focus {
+    border-color: #002575;
+    color: #495057;
+}
+
+.loginInput > input:focus ~ label {
+    top: -5px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #002575;
+}
+
+.loginInput > input:focus::placeholder {
+    color: #958E89;
+}

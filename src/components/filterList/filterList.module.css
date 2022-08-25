@@ -1,0 +1,134 @@
+
+.categoryResultsFilter {
+    border: 1px solid rgba(222, 222, 222, 0.51);
+    -webkit-box-shadow: 0 5px 10px 0 rgb(194 193 193 / 9%);
+    box-shadow: 0 5px 10px 0 rgb(194 193 193 / 9%);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+    padding: 20px;
+    min-width: 220px;
+    height: fit-content;
+    margin-top: 5px;
+    position: sticky;
+    top: 100px;
+}
+
+.categoryResultsFilterTtl {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.17px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 20px;
+}
+
+.categFilter {
+    
+}
+
+.categFilterHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.categFilterHeaderBrand {
+    color: var(--blue-dark);
+    font-weight: 700;
+}
+
+.categFilterHeaderImg {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.rotated90 {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.categFilterForm {
+
+}
+
+.categFilterFormList {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 30px;
+
+}
+
+.categFilterFormListItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.categFilterFormListItem > input {
+    width: 16px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.categFilterFormListItem > label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 0.13px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.categItemNum {
+
+}
+
+.categFilterFormBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categFilterFormBtns > button {
+    min-height: 40px;
+
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.categFilterFormBtnCancel {
+    background-color: var(--white);
+    text-decoration: underline;
+    color: var(--red-light2);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.categFilterFormBtnFilter {
+    font-size: 16px;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    padding: 0px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

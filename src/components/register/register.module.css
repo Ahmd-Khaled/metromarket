@@ -1,0 +1,210 @@
+.login {
+    min-height: 100vh;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 80px 40px 40px;
+}
+
+.loginImage {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.loginTitle {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--black);
+    margin-top: 30px;
+}
+
+.loginForm {
+    background-color: var(--white);
+    padding: 90px 60px 40px 60px;
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 0 30px 50px 0 rgb(226 226 226 / 34%);
+    box-shadow: 0 30px 50px 0 rgb(226 226 226 / 34%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInput {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.loginInput > input {
+    min-height: 55px;
+    padding: 0;
+    border: 1.5px solid #5f92fe;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    text-indent: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    display: block;
+    width: 100%;
+}
+
+.loginInput > input:focus {
+    border-color: #002575;
+    color: #495057;
+}
+
+.loginInput > input:focus + label {
+    top: -5px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002575;
+}
+
+.loginInput > input::placeholder {
+    color: #958E89;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loginInput > label {
+    display: none;
+    position: absolute;
+    left: 16px;
+    top: 40%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600;
+    color: #5f92fe;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.loginInput > label > sup {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.loginBtn,
+.loginFaceBtn {
+    height: 53px;
+    min-height: 40px;
+    padding: 0px 20px;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.loginFaceBtn {
+    font-weight: 00;
+}
+
+.loginFaceBtnLogo {
+    width: 30px;
+}
+
+.loginFaceBtnTxt {
+    font-size: 18px;
+}
+
+.loginLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.loginLink > a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.79;
+    color: #002575;
+    text-decoration: underline;
+}
+
+.loginLink > span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .loginForm {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .loginForm {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .loginForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .login {
+        padding: 60px 30px 30px;
+    }
+
+    .loginForm {
+        width: 90%;
+    }
+
+    .loginLinks {
+        gap: 20px;
+    }
+
+    .loginLink {
+        flex-direction: column;
+    }
+}

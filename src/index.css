@@ -1,0 +1,144 @@
+:root {
+  --body-color: #212529;
+  --blue-dark: #002575;
+  --gray-dark1: #495057;
+  --red-light: #f61919;
+  --red-light2: #d60812;
+  --red-light3: #DA2B2A;
+  --gray-light: #a5a5a5;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --black: #000;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-cairo: 'Cairo', sans-serif;
+  /* --font-gotham-cairo: 'gotham','Cairo', sans-serif; */
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: 'gotham';
+  src: url('../public/assets/fonts/Gotham-Font/GothamMedium.ttf'); 
+} */
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-family-cairo);
+  color: var(--body-color);
+  background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: var(--font-family-cairo);
+}
+
+input, button, select {
+  border: 0;
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  object-fit: cover;
+}
+
+.sectionContainer {
+  margin: auto;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.pageContainer {
+  padding-left: 210px;
+  padding-right: 210px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px){
+  .sectionContainer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .pageContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .sectionContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .pageContainer {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .sectionContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+    
+  .pageContainer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .sectionContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }    
+
+  .pageContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

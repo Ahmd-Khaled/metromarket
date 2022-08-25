@@ -1,0 +1,137 @@
+.footer {
+    background-color: #F1F1F1;
+    padding-top: 40px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMainLinks {
+    /* display: flex;
+    justify-content: space-between;
+    gap: 20px 0px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 0px;
+}
+
+.footerLinks {
+    /* flex: 1; */
+}
+
+.footerLinksTitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: -0.48px;
+    color: var(--black);
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.footerSocialList {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footerSocialItem {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.footerSocialItem:hover {
+    opacity: 0.7;
+}
+
+.footerHotlineNum {
+    color: var(--red-light3);
+    font-weight: 500;
+}
+
+.footerDownloadList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footerDownloadItemLink > img {
+    width: 140px;
+    height: 40px;
+}
+
+.footerLogo {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footerLogoLinkImg {
+    width: 170px;
+}
+
+.footerCopyRight {
+    background-color: var(--white);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footerCopyRightList {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+}
+
+.footerCopyRightListItem {
+    color: #878787;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.88;
+}
+
+.footerCopyRightListItem:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .footerCopyRightList {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .footerMainLinks {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footerCopyRightList {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footerCopyRightListItem {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .footerMainLinks {
+        grid-template-columns: 1fr;
+    }
+}
